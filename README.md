@@ -287,13 +287,10 @@ python main.py
 #### Изменение промпта через файл
 
 1. Создайте файл custom_prompt.txt:
-
 ```text
 Твой кастомный промпт здесь...
 ```
-
 2. Измените код в main.py:
-
 ```bash
 prompt = PromptTemplate("custom_prompt.txt")
 ```
