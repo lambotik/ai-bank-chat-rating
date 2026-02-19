@@ -61,14 +61,20 @@ ollama pull llama3.2:latest      # Meta Llama 3.2 (рекомендуется)
 ollama pull phi:2.7b              # Microsoft Phi-2 (легковесная)
 ollama pull mistral:7b            # Mistral 7B
 ollama pull gemma:2b              # Google Gemma
+ollama pull qwen2.5:7b
+ollama pull tinyllama:1.1b 
+ollama pull deepseek-coder:1.3b    
+ollama pull deepseek-r1:8b 
 ```
 #### Рекомендуемые модели для оценки:
 
 - llama3.2:latest - лучший баланс качества и скорости
-
 - phi:2.7b - очень быстрая, хороша для тестирования
-
 - mistral:7b - высокая точность, требует больше ресурсов
+- qwen2.5:7b
+- tinyllama:1.1b 
+- deepseek-coder:1.3b    
+- deepseek-r1:8b 
 
 #### Проверьте загруженные модели:
 ```bash
