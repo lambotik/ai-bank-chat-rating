@@ -78,8 +78,8 @@ ollama list
 ### 3. Настройка проекта
 #### Клонирование проекта
 ```bash
-git clone <url-репозитория>
-cd bank-chat-rating
+git clone https://github.com/lambotik/ai-bank-chat-rating.git
+cd ai-bank-chat-rating
 ```
 #### Установка зависимостей Python
 ```bash
